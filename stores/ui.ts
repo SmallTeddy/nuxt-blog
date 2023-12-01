@@ -5,10 +5,9 @@ export const useUiState = defineStore('ui', () => {
 
   function getLayoutDefaults() {
     return {
-      panelDocs: 30,
-      panelEditor: 60,
-      panelPreview: 40,
-      showTerminal: false,
+      panelMenu: 15,
+      panelTitle: 3,
+      panelDocs: 97
     }
   }
 
