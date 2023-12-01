@@ -26,12 +26,12 @@ const panelInitRight = computed(() => isMounted.value || {
 
 <template>
   <Splitpanes h-full of-hidden @resize="startDragging" @resized="endDraggingVertical">
-    <Pane :size="ui.panelDocs" min-size="10" :style="panelInitDocs" flex="~ col gap-4" p-4>
+    <Pane :size="ui.panelDocs" min-size="15" :style="panelInitDocs" flex="~ col gap-4" p-4>
       <NuxtLink to="/">index</NuxtLink>
       <NuxtLink to="/about">about</NuxtLink>
       <NuxtLink to="/setting">index</NuxtLink>
     </Pane>
-    <Pane :size="100 - ui.panelDocs" :style="panelInitRight">
+    <Pane :size="100 - ui.panelDocs" min-size="30" :style="panelInitRight">
       <div p-4>
         <ContentDoc />
       </div>
