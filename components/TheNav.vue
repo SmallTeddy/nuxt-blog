@@ -9,14 +9,14 @@ const ui = useUiState()
     </NuxtLink>
     <div flex-auto />
     <ColorSchemeToggle />
-    <!-- <NuxtLink
+    <NuxtLink
       rounded p2
       title="GitHub"
       hover="bg-active"
-      href="https://github.com/nuxt/learn.nuxt.com"
+      href="https://github.com/SmallTeddy/nuxt-blog"
       target="_blank"
     >
       <div i-carbon-logo-github text-2xl />
-    </NuxtLink> -->
+    </NuxtLink>
   </nav>
 </template>
